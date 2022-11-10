@@ -10,7 +10,7 @@ const Notification = ({ notification }) => {
       return (
         <span className="notification-action">
           {`reacted to your recent ${entityType}`}{" "}
-          <span className="highlight-dark-gray">{`${entityDetail}`}</span>
+          <strong className="highlight-dark-gray">{`${entityDetail}`}</strong>
         </span>
       );
     } else if (notification.type === "follow") {
@@ -22,7 +22,7 @@ const Notification = ({ notification }) => {
           {`has ${`${
             type === "join" ? "joined" : "left"
           }`} your group ${entityType}`}{" "}
-          <span className="highlight-blue">{`${entityDetail}`}</span>
+          <strong className="highlight-blue">{`${entityDetail}`}</strong>
         </span>
       );
     } else if (notification.type === "message") {
@@ -62,7 +62,7 @@ const Notification = ({ notification }) => {
       </div>
       <div className="notification-details">
         <div className={notification.type === "comment" ? "comment" : ""}>
-          <span className="notification-name">{notification.name}</span>{" "}
+          <strong className="notification-name">{notification.name}</strong>{" "}
           {createMessage()}{" "}
           {notification.unread ? (
             <span className="unread-notificaition"></span>

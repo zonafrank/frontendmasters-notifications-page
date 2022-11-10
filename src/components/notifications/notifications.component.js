@@ -20,18 +20,20 @@ const Notifications = () => {
 
   return (
     <div className="container">
-      <div className="notifications-summary">
+      <header className="notifications-summary">
         <div>
-          <span className="notifications-title">Notifications</span>{" "}
+          <strong className="notifications-title">Notifications</strong>{" "}
           <span className="unread-count">{unreadCount}</span>
         </div>
         <div className="mark-as-read" onClick={markAllAsRead}>
           Mark all as read
         </div>
-      </div>
-      {notifications.map((d) => {
-        return <Notification key={d.id} notification={d} />;
-      })}
+      </header>
+      <main>
+        {notifications.map((d) => {
+          return <Notification key={d.id} notification={d} />;
+        })}
+      </main>
       <Footer />
     </div>
   );

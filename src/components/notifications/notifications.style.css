@@ -25,15 +25,25 @@
 }
 
 .highlight-blue {
-  color: var(--blue);
   font-family: "PlusJakartaSansBold";
+}
+
+.highlight-blue:hover {
+  cursor: pointer;
+  color: var(--blue);
 }
 
 .highlight-dark-gray {
-  color: var(--dark-grayish-blue);
   font-family: "PlusJakartaSansBold";
 }
 
-.mark-as-read {
+.highlight-dark-gray:hover {
+  color: var(--blue);
   cursor: pointer;
+}
+
+.mark-as-read:hover {
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: bold;
 }

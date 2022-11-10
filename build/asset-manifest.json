@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d253707a.css",
-    "main.js": "/static/js/main.faeeaffb.js",
+    "main.css": "/static/css/main.b48e4d5d.css",
+    "main.js": "/static/js/main.b901d241.js",
     "static/js/787.8f2f970a.chunk.js": "/static/js/787.8f2f970a.chunk.js",
     "static/media/PlusJakartaSans-VariableFont_wght.ttf": "/static/media/PlusJakartaSans-VariableFont_wght.ae47e4d01757abf8ad63.ttf",
+    "static/media/Screenshot 2022-11-10 at 13-48-10 React App.png": "/static/media/Screenshot 2022-11-10 at 13-48-10 React App.7d0ce711131db4093e91.png",
     "static/media/PlusJakartaSans-Medium.ttf": "/static/media/PlusJakartaSans-Medium.b1ea1e4a874b401f584a.ttf",
     "static/media/PlusJakartaSans-ExtraBold.ttf": "/static/media/PlusJakartaSans-ExtraBold.5a0637ca31265773a597.ttf",
+    "static/media/Web capture_10-11-2022_135416_localhost.jpeg": "/static/media/Web capture_10-11-2022_135416_localhost.2df4c1171c254921197f.jpeg",
     "static/media/avatar-rizky-hasanuddin.webp": "/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/avatar-jacob-thompson.webp": "/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
     "static/media/avatar-nathan-peterson.webp": "/static/media/avatar-nathan-peterson.03727540c8ed8341d745.webp",
@@ -16,12 +18,12 @@
     "static/media/avatar-kimberly-smith.webp": "/static/media/avatar-kimberly-smith.00520dc2b2f8e585aac5.webp",
     "static/media/avatar-angela-gray.webp": "/static/media/avatar-angela-gray.be3397e8fa98e1cac926.webp",
     "index.html": "/index.html",
-    "main.d253707a.css.map": "/static/css/main.d253707a.css.map",
-    "main.faeeaffb.js.map": "/static/js/main.faeeaffb.js.map",
+    "main.b48e4d5d.css.map": "/static/css/main.b48e4d5d.css.map",
+    "main.b901d241.js.map": "/static/js/main.b901d241.js.map",
     "787.8f2f970a.chunk.js.map": "/static/js/787.8f2f970a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d253707a.css",
-    "static/js/main.faeeaffb.js"
+    "static/css/main.b48e4d5d.css",
+    "static/js/main.b901d241.js"
   ]
 }

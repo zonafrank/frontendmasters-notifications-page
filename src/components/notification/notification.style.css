@@ -27,6 +27,11 @@
   font-family: "PlusJakartaSansBold";
 }
 
+.notification-name:hover {
+  cursor: pointer;
+  color: var(--blue);
+}
+
 .unread {
   background-color: var(--light-grayish-blue-1);
 }
@@ -46,8 +51,17 @@
   top: 0;
 }
 
+.notification-action img:hover {
+  cursor: pointer;
+}
+
 .notification-other {
   padding: 1rem;
   border: 1px solid var(--light-grayish-blue-2);
   border-radius: 5px;
+}
+
+.notification-other:hover {
+  background-color: var(--light-grayish-blue-2);
+  cursor: pointer;
 }
