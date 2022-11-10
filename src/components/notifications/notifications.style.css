@@ -1,0 +1,39 @@
+.container {
+  max-width: 680px;
+  margin: auto;
+  background-color: var(--very-light-grayish-blue);
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.notifications-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notifications-title {
+  font-family: "PlusJakartaSansBold";
+}
+
+.unread-count {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.08rem 0.6rem;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}
+
+.highlight-blue {
+  color: var(--blue);
+  font-family: "PlusJakartaSansBold";
+}
+
+.highlight-dark-gray {
+  color: var(--dark-grayish-blue);
+  font-family: "PlusJakartaSansBold";
+}
+
+.mark-as-read {
+  cursor: pointer;
+}

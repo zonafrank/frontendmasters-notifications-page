@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Mark Webber",
+    "action": "reacted to your recent post My first tournament today!",
+    "time": "1m ago",
+    "unread": true,
+    "type": "reaction",
+    "typeDetails": {
+      "entityType": "post",
+      "entityDetail": "My first tournament today!"
+    },
+    "avatar": "avatar-mark-webber.webp"
+  },
+  {
+    "id": 2,
+    "name": "Angela Gray",
+    "action": "followed you",
+    "time": "5m ago",
+    "unread": true,
+    "type": "follow",
+    "avatar": "avatar-angela-gray.webp"
+  },
+  {
+    "id": 3,
+    "name": "Jacob Thompson",
+    "action": "has joined your group Chess Club",
+    "time": "1 day ago",
+    "unread": true,
+    "type": "join",
+    "typeDetails": {
+      "entityType": "group",
+      "entityDetail": "Chess Club"
+    },
+    "avatar": "avatar-jacob-thompson.webp"
+  },
+  {
+    "id": 4,
+    "name": "Rizky Hasanuddin",
+    "action": "sent you a private message",
+    "time": "5 days ago",
+    "unread": false,
+    "type": "message",
+    "typeDetails": {
+      "entityType": "private message",
+      "entityDetail": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
+    },
+    "avatar": "avatar-rizky-hasanuddin.webp",
+    "other_details": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+  },
+  {
+    "id": 5,
+    "name": "Kimberly Smith",
+    "action": "commented on your picture",
+    "time": "1 week ago",
+    "unread": false,
+    "type": "comment",
+    "typeDetails": {
+      "entityType": "picture",
+      "entityDetail": "image-chess.webp"
+    },
+    "avatar": "avatar-kimberly-smith.webp"
+  },
+  {
+    "id": 6,
+    "name": "Nathan Peterson",
+    "action": "reacted to your recent post 5 end-game strategies to increase your win rate",
+    "time": "2 weeks ago",
+    "unread": false,
+    "type": "reaction",
+    "typeDetails": {
+      "entityType": "post",
+      "entityDetail": "5 end-game strategies to increase your win rate"
+    },
+    "avatar": "avatar-nathan-peterson.webp"
+  },
+  {
+    "id": 7,
+    "name": "Anna Kim",
+    "action": "left the group Chess Club",
+    "time": "2 weeks ago",
+    "unread": false,
+    "type": "left",
+    "typeDetails": {
+      "entityType": "group",
+      "entityDetail": "Chess Club"
+    },
+    "avatar": "avatar-anna-kim.webp"
+  }
+]

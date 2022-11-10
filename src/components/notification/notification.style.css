@@ -1,0 +1,53 @@
+.notification {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  line-height: 1.5;
+}
+
+.unread-notificaition {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--red);
+  border-radius: 50%;
+}
+
+.notification-image {
+  height: 3rem;
+  width: 3rem;
+}
+
+.notification-name {
+  font-family: "PlusJakartaSansBold";
+}
+
+.unread {
+  background-color: var(--light-grayish-blue-1);
+}
+
+.notification-details {
+  flex-grow: 1;
+}
+
+.comment {
+  position: relative;
+  padding-right: 3.5rem;
+}
+
+.notification-action img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.notification-other {
+  padding: 1rem;
+  border: 1px solid var(--light-grayish-blue-2);
+  border-radius: 5px;
+}
